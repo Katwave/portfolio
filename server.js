@@ -274,7 +274,7 @@ app.get("/invalid", (req, res) => {
   res.sendFile(`${__dirname}/public/html/invalid.html`);
 });
 
-const port = process.env.port || 3000;
-app.listen(port, () => {
-  console.log(`Listening on PORT ${port}...`);
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Listening on PORT ${PORT}...`);
 });
