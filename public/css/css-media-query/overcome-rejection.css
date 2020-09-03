@@ -1,0 +1,110 @@
+/* CSS Width Rules */
+
+@media screen and (max-width: 1450px) {
+  .blog-container {
+    width: 98%;
+  }
+
+  .blog-container h3 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .my-blog {
+    margin-top: 20%;
+  }
+  .blog-container h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .blog-container {
+    padding: 12px;
+  }
+  .blog-container h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .blog-container p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .my-blog {
+    margin-top: 30%;
+  }
+  .blog-container h3 {
+    font-size: 22px;
+  }
+  .blog-container h1 {
+    font-size: 24px;
+  }
+  .blog-container h2 {
+    font-size: 18px;
+  }
+  .blog-container .blog-links a {
+    font-size: 18px;
+    padding: 10px 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .blog-container p {
+    font-size: 16px;
+  }
+  .blog-container .blog-links a {
+    font-size: 15px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .blog-container h3 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .my-blog {
+    margin-top: 50%;
+  }
+  .blog-container {
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .blog-container p {
+    font-size: 14px;
+  }
+  .blog-container h1 {
+    font-size: 20px;
+  }
+  .blog-container h2 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .blog-container h3 {
+    border: none;
+    background: none;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .blog-container .blog-links a {
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: underline;
+    background: none;
+    color: rgb(112, 145, 255);
+  }
+}
+
+/* CSS HEight Rules */

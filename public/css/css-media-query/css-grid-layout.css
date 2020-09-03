@@ -1,0 +1,88 @@
+/* CSS Width Rules */
+
+@media screen and (max-width: 1450px) {
+  .blog-container {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .learn-css-grid {
+    margin-top: 20%;
+  }
+  .blog-container h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .blog-container {
+    padding: 12px;
+  }
+  .blog-container h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .blog-container p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .learn-css-grid {
+    margin-top: 30%;
+  }
+
+  .blog-container h1 {
+    font-size: 24px;
+  }
+  .blog-container h3 {
+    font-size: 18px;
+  }
+  .blog-container .blog-links a {
+    font-size: 18px;
+    padding: 10px 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .blog-container p {
+    font-size: 16px;
+  }
+  .blog-container .blog-links a {
+    font-size: 13px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .learn-css-grid {
+    margin-top: 50%;
+  }
+  .blog-container {
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .blog-container p {
+    font-size: 14px;
+  }
+  .blog-container h1 {
+    font-size: 20px;
+  }
+  .blog-container h3 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .blog-container .blog-links a {
+    font-size: 13px;
+    padding: 5px;
+    background: none;
+    color: rgb(112, 145, 255);
+  }
+}

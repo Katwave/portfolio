@@ -1,0 +1,84 @@
+/* Flex layout */
+.container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+/* Blog post */
+
+.my-blog {
+  position: relative;
+  margin-top: 10%;
+  align-self: flex-start;
+  width: fit-content;
+  height: fit-content;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+.blog-container {
+  width: 70%;
+  height: fit-content;
+  padding: 20px;
+  color: #fff;
+  word-break: break-word;
+}
+.blog-container .memes {
+  width: 100%;
+  height: 50%;
+}
+.blog-container .memes img {
+  width: 100%;
+  height: 600px;
+}
+.blog-container h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 500;
+}
+.blog-container h2 {
+  font-weight: 500;
+}
+.blog-container h3 {
+  color: rgb(112, 145, 255);
+  text-decoration: none;
+  font-size: 36px;
+}
+.blog-container p {
+  font-size: 20px;
+}
+.blog-container .blog-links {
+  width: fit-content;
+}
+.blog-container .blog-links a {
+  text-decoration: none;
+  color: #fff;
+  background: rgb(0, 60, 255);
+  transition: all 300ms ease-in-out;
+  padding: 10px 24px;
+  border-radius: 5px;
+  font-size: 18px;
+  border-left: none;
+  display: inline-block;
+  margin-top: 7px;
+}
+.blog-container .blog-links a:hover {
+  color: rgb(0, 60, 255);
+  background: #fff;
+}
+
+/* Footer */
+
+.footer {
+  position: relative;
+  margin-top: 10%;
+  align-self: flex-end;
+}
+.footer p {
+  margin-bottom: 10px;
+}

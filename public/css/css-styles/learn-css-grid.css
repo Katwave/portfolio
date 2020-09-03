@@ -1,0 +1,103 @@
+/* Flex layout */
+.container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+/* Leran css grid blog container */
+
+.learn-css-grid {
+  position: relative;
+  margin-top: 10%;
+  align-self: flex-start;
+  width: fit-content;
+  height: fit-content;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #fff;
+}
+.blog-container {
+  width: 70%;
+  height: fit-content;
+  background: transparent;
+  padding: 20px;
+}
+.blog-container h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 500;
+}
+.blog-container h2 {
+  font-weight: 500;
+}
+.blog-container h3 {
+  font-weight: 500;
+}
+.blog-container p {
+  font-size: 20px;
+}
+.blog-container .blog-links {
+  width: fit-content;
+}
+.code-container {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  background: #222;
+  border-left: 8px solid #555;
+  border-radius: 5px;
+  box-shadow: 4px 4px 28px rgba(0, 0, 0, 0.4);
+}
+.html-code {
+  color: #777;
+}
+.css-code {
+  color: #ddd;
+}
+.code-container span.class {
+  color: rgb(0, 195, 255);
+}
+.code-container span.attribute {
+  color: rgb(255, 102, 0);
+  grid-template-columns: repeat(3);
+}
+.code-container span.tag {
+  color: rgb(0, 119, 255);
+}
+.code-container span.cssSelector {
+  color: rgb(255, 196, 0);
+}
+.code-container span.css-functions {
+  color: rgb(0, 255, 149);
+}
+
+.blog-container .blog-links a {
+  text-decoration: none;
+  color: #fff;
+  background: rgb(0, 60, 255);
+  transition: all 300ms ease-in-out;
+  padding: 10px 24px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 7px;
+}
+.blog-container .blog-links a:hover {
+  color: rgb(0, 60, 255);
+  background: #fff;
+}
+
+/* Footer */
+
+.footer {
+  position: relative;
+  margin-top: 10%;
+  align-self: flex-end;
+}
+.footer p {
+  margin-bottom: 10px;
+}

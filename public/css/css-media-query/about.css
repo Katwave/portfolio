@@ -1,0 +1,89 @@
+/* CSS Width Rules */
+
+@media screen and (max-width: 1330px) {
+  .aboutPicture img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about {
+    top: 20%;
+    height: 100%;
+  }
+  .aboutContainer {
+    width: 95%;
+    height: 95%;
+    flex-direction: column;
+    box-shadow: 6px 6px 36px rgba(0, 0, 0, 0.637);
+    border-radius: 5px;
+    border-left: none;
+  }
+  .aboutPicture {
+    width: 100%;
+    height: 50%;
+    background: #222;
+    animation: none;
+  }
+  .aboutPicture img {
+    margin-top: 10px;
+    width: 180px;
+    height: 180px;
+    border-radius: 5px;
+  }
+  .aboutInfo {
+    justify-content: flex-start;
+    height: 50%;
+    width: 100%;
+    background: #222;
+    animation: none;
+  }
+
+  /* Foter */
+
+  .footer {
+    bottom: -100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .aboutInfo h1 {
+    font-size: 2em;
+  }
+  .aboutInfo p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .aboutInfo h1 {
+    font-size: 26px;
+    margin-top: 10px;
+  }
+  .aboutInfo p {
+    font-size: 16px;
+  }
+}
+
+/* CSS Height Rules */
+
+@media screen and (max-height: 600px) {
+  .aboutInfo h1 {
+    font-size: 30px;
+  }
+  .aboutInfo p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .about {
+    top: 30%;
+  }
+
+  /* Foter */
+
+  .footer {
+    bottom: -130%;
+  }
+}

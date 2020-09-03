@@ -1,0 +1,183 @@
+/* CSS Width Rules */
+
+@media screen and (max-width: 800px) {
+  .sign-in-up h1 {
+    font-size: 2em;
+  }
+  .formInput {
+    width: 350px;
+    height: 35px;
+  }
+  form label {
+    font-size: 20px;
+  }
+  form input {
+    font-size: 15px;
+  }
+  .submit a {
+    font-size: 18px;
+  }
+  .sign-in-up a {
+    font-size: 18px;
+  }
+  .submit button {
+    font-size: 16px;
+  }
+
+  /* Contact */
+  .social a {
+    font-size: 18px;
+    padding: 8px 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  form label {
+    top: 9%;
+  }
+  .formInput {
+    width: 280px;
+    height: 32px;
+  }
+
+  /* Contact */
+  .social a {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  /* E-mail container */
+  .emailContainer h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .formInput {
+    width: 240px;
+  }
+
+  a.sign-up {
+    padding: 8px 15px;
+  }
+
+  #forgotPasswordHeading {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .formInput {
+    width: 190px;
+  }
+
+  /* Contact */
+  .social a {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  /* E-mail container */
+  .emailContainer {
+    margin: 10px;
+    padding: 10px;
+  }
+  .emailContainer h2 {
+    font-size: 15px;
+  }
+  .emailContainer h4 {
+    font-size: 12px;
+  }
+  .emailContainer button {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .formInput {
+    width: 150px;
+  }
+}
+
+/*CSS Height Rules */
+
+@media screen and (max-height: 750px) {
+  .sign-in-up {
+    top: 18%;
+    height: 100%;
+  }
+
+  /* Footer */
+  .footer {
+    bottom: -100%;
+  }
+}
+
+@media screen and (max-height: 620px) {
+  .sign-in-up {
+    top: 15%;
+    height: 100%;
+  }
+
+  /* Footer */
+  .footer {
+    bottom: -120%;
+  }
+}
+
+@media screen and (max-height: 550px) {
+  .sign-in-up {
+    top: 25%;
+    height: 100%;
+  }
+
+  /* Footer */
+  .footer {
+    bottom: -150%;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sign-in-up {
+    top: 38%;
+    height: 100%;
+  }
+
+  /* Footer */
+  .footer {
+    bottom: -200%;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  /* Footer */
+  .footer {
+    bottom: -220%;
+  }
+}
+
+@media screen and (max-height: 350px) {
+  .sign-in-up {
+    top: 50%;
+    height: 100%;
+  }
+
+  /* Footer */
+  .footer {
+    bottom: -260%;
+  }
+}
+
+@media screen and (max-height: 290px) {
+  .sign-in-up {
+    top: 68%;
+    height: 100%;
+  }
+
+  /* Footer */
+  .footer {
+    bottom: -260%;
+  }
+}

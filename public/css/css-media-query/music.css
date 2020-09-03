@@ -1,0 +1,185 @@
+/* CSS Width Rules */
+
+@media screen and (max-width: 1330px) {
+  /* Play controls*/
+  #mute {
+    display: none;
+  }
+  #volumeIcon {
+    display: inline-flex;
+  }
+
+  /* SOng title */
+  .controlsContainer h4 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .musicContainer {
+    width: 95%;
+  }
+
+  /* Playlist */
+  .playlistItems h2 {
+    font-size: 24px;
+  }
+  .playlistItems p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* SOng title */
+  .controlsContainer h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* Play controls*/
+  .playControls span {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  /* Playlist */
+  .playlistItems h2 {
+    font-size: 20px;
+  }
+  .playlistItems p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  /* Play controls*/
+  #repeat {
+    display: none;
+  }
+  .volume input[type="range"] {
+    height: 2.3px;
+  }
+  .volume input[type="range"]::-webkit-slider-thumb {
+    width: 15px;
+    height: 15px;
+  }
+  .seekContainer input[type="range"] {
+    height: 2.3px;
+  }
+  .seekContainer input[type="range"]::-webkit-slider-thumb {
+    width: 15px;
+    height: 15px;
+  }
+  /* SOng title */
+  .controlsContainer h4 {
+    font-size: 14px;
+  }
+
+  /* Playlist */
+  .playlistItems {
+    padding: 10px;
+    height: 40%;
+  }
+  .playlistItems h2 {
+    font-size: 16px;
+    align-self: flex-start;
+  }
+  .playlistItems p {
+    font-size: 14px;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* Play controls*/
+  .playControls span {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .volume input[type="range"] {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Play controls*/
+  #previous {
+    display: none;
+  }
+  #next {
+    display: none;
+  }
+  .playControls span {
+    padding: 10px 19px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* Play controls*/
+  .playControls span {
+    padding: 10px 19px;
+    font-size: 16px;
+  }
+  #download {
+    padding: 12px;
+    font-size: 14px;
+  }
+  #previous {
+    display: none;
+  }
+  #next {
+    display: none;
+  }
+
+  /* Playlist */
+  .playlistItems h2 {
+    font-size: 14px;
+  }
+  .playlistItems p {
+    font-size: 11px;
+  }
+}
+
+/* CSS Height Rules */
+
+@media screen and (max-height: 650px) {
+  /* Footer */
+  .footer {
+    bottom: -160%;
+  }
+
+  /* Playlist */
+  .playlistItems {
+    height: 60%;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  /* Music */
+  .music {
+    top: 20%;
+  }
+
+  /* Footer */
+  .footer {
+    bottom: -180%;
+  }
+}
+
+@media screen and (max-height: 330px) {
+  /* Footer */
+  .footer {
+    height: 120%;
+    bottom: -190%;
+  }
+}
+
+@media screen and (max-height: 250px) {
+  /* Footer */
+  .footer {
+    height: 150%;
+    bottom: -230%;
+  }
+}

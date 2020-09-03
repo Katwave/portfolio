@@ -1,0 +1,70 @@
+/* CSS Width Rules */
+
+@media screen and (max-width: 1500px) {
+  .errorContainer h1 {
+    font-size: 10em;
+    letter-spacing: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .error {
+    margin-top: 20%;
+  }
+  .errorContainer h1 {
+    font-size: 8em;
+    letter-spacing: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .error {
+    margin-top: 26%;
+  }
+  .errorContainer h1 {
+    font-size: 6em;
+  }
+  .errorContainer h2 {
+    font-size: 24px;
+  }
+
+  .error a {
+    font-size: 16px;
+    padding: 10px 12px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .error {
+    margin-top: 35%;
+  }
+  .errorContainer h1 {
+    font-size: 4em;
+  }
+  .errorContainer h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-height: 480px) {
+  .footer {
+    bottom: -120%;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .footer {
+    bottom: -140%;
+  }
+}
+
+@media screen and (max-height: 390px) {
+  .footer {
+    bottom: -180%;
+  }
+}
+@media screen and (max-height: 280px) {
+  .footer {
+    bottom: -210%;
+  }
+}

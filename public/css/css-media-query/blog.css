@@ -1,0 +1,93 @@
+/* CSS Width Rules */
+
+@media screen and (max-width: 1330px) {
+  .blog-container h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .blog-container {
+    width: 95%;
+  }
+  .blog-container h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .blog-container h1 {
+    font-size: 26px;
+  }
+  .blog-container h2 {
+    font-size: 22px;
+  }
+  .blog-container a {
+    font-size: 15px;
+    padding: 10px 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .blog-container h1 {
+    font-size: 22px;
+  }
+  .blog-container h2 {
+    font-size: 18px;
+  }
+  .blog-container a {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .blog-container h1 {
+    font-size: 18px;
+  }
+  .blog-container h2 {
+    font-size: 15px;
+  }
+  .blog-container a {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+/* CSS Height Rules */
+
+@media screen and (max-height: 650px) {
+  .blog {
+    top: 20%;
+  }
+
+  /* Footer */
+  .footer {
+    bottom: -100%;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .blog {
+    height: 130vh;
+    top: 40%;
+  }
+
+  /* Footer */
+  .footer {
+    bottom: -180%;
+  }
+}
+
+@media screen and (max-height: 290px) {
+  .blog {
+    height: 180vh;
+    top: 40%;
+  }
+
+  /* Footer */
+  .footer {
+    bottom: -255%;
+    height: 120%;
+  }
+}

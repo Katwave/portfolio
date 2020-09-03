@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stream and Download Music Produced by Katwave</title>
+    <link
+      href="../css/fontAwesome/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link rel="icon" href="../img/katman logo.png" />
+
+    <link rel="stylesheet" href="../css/css-styles/style.css" />
+    <link rel="stylesheet" href="../css/css-media-query/index.css" />
+    <link rel="stylesheet" href="../css/css-styles/music.css" />
+    <link rel="stylesheet" href="../css/css-media-query/music.css" />
+  </head>
+  <body>
+    <div class="onLoad">
+      <div class="loadContainer">
+        <div class="water"></div>
+      </div>
+      <br />
+      <h1>Loading...</h1>
+    </div>
+
+    <!-- Loading Page -->
+    <div class="loading">
+      <h1>Katman</h1>
+      <br /><br />
+      <div class="circle-container">
+        <div class="load-circle"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!--Cursor  -->
+      <div class="cursor"></div>
+
+      <!-- Navigation -->
+      <div class="nav">
+        <div class="logoContainer">
+          <a href="/"> Katman </a>
+        </div>
+        <div class="linksContainer1">
+          <ul>
+            <li>
+              <a
+                href="../resume/Katlego Mangoale Web dev Resume.pdf"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+            <li>
+              <a href="/music"
+                >Music <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </a>
+
+              <div class="category">
+                <ul>
+                  <li><a href="/music/tracks">Tracks</a></li>
+                  <li><a href="/music/beats">Beats</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="/projects">Projects</a></li>
+            <li>
+              <a href="/blog">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="linksContainer2">
+          <ul>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/sign-in" class="signin">Sign in</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Mobile Nav-bar -->
+
+      <div class="navHam">
+        <div class="logoContainer">
+          <a href="/"> Katman </a>
+        </div>
+
+        <div class="ham-burger">
+          <a href="/sign-in" class="signin">Sign in</a>
+
+          <button class="hamBTN-open">
+            <span></span><span></span><span></span>
+          </button>
+          <button class="hamBTN-close">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="navigation">
+        <div class="linksContainer1">
+          <ul>
+            <li>
+              <a
+                href="../resume/Katlego Mangoale Web dev Resume.pdf"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+            <li>
+              <a
+                >Music <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </a>
+
+              <div class="category">
+                <ul>
+                  <li><a href="/music/tracks">Tracks</a></li>
+                  <li><a href="/music/beats">Beats</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="/projects">Projects</a></li>
+            <li>
+              <a href="/blog">Blog</a>
+            </li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/sign-in">Sign in</a></li>
+            <li><a href="/sign-up">Sign up</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Music Section -->
+      <div class="music">
+        <div class="musicContainer">
+          <div class="coverContainer">
+            <div class="coverImage">
+              <img id="coverArt" src="../img/know.jpg" alt="Cover ARt" />
+            </div>
+          </div>
+          <div class="controlsContainer">
+            <h4 class="song-title" style="color: #fff; margin-top: 12px">
+              Katwave - Darker_Beat_Alertion_ (Prod by Katwave)
+            </h4>
+            <div class="seekContainer">
+              <input
+                type="range"
+                min="0"
+                max="100"
+                step="1"
+                value="100"
+                id="seek"
+              />
+            </div>
+            <div class="playControls">
+              <div class="repeat">
+                <a id="download" href="#" download>
+                  <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                </a>
+                <span id="repeat"
+                  ><i class="fa fa-repeat" aria-hidden="true"></i
+                ></span>
+                <span style="display: none" id="unrepeat"
+                  ><i class="fa fa-repeat" aria-hidden="true"></i
+                ></span>
+              </div>
+              <div class="play-pause-next">
+                <span id="previous"
+                  ><i class="fa fa-fast-backward" aria-hidden="true"></i
+                ></span>
+                <span id="play"
+                  ><i class="fa fa-play" aria-hidden="true"></i
+                ></span>
+                <span style="display: none" id="pause"
+                  ><i class="fa fa-pause" aria-hidden="true"></i
+                ></span>
+                <span id="next"
+                  ><i class="fa fa-fast-forward" aria-hidden="true"></i
+                ></span>
+              </div>
+              <div class="volume">
+                <span id="mute"
+                  ><i class="fa fa-volume-down" aria-hidden="true"></i
+                ></span>
+                <span style="display: none" id="unmute"
+                  ><i class="fa fa-volume-up" aria-hidden="true"></i
+                ></span>
+                <p id="volumeIcon">
+                  <i class="fa fa-volume-up" aria-hidden="true"></i>
+                </p>
+                <input
+                  id="volume"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="1"
+                  value="100"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="playlistContainer">
+            <div class="playlistItems">
+              <h2>Darker_Beat_Alertion_ (Prod by Katwave)</h2>
+              <p>Katwave</p>
+            </div>
+            <div class="playlistItems">
+              <h2>Blessed (Prod by Katwave)</h2>
+              <p>Katwave</p>
+            </div>
+            <div class="playlistItems">
+              <h2>I go hard (Prod by Katwave)</h2>
+              <p>Charles Nave</p>
+            </div>
+            <div class="playlistItems">
+              <h2>Love song (Prod by Katwave)</h2>
+              <p>Katwave</p>
+            </div>
+            <div class="playlistItems">
+              <h2>Makunye (Prod by Katwave)</h2>
+              <p>Katwave</p>
+            </div>
+            <div class="playlistItems">
+              <h2>Bryson Tiller Type Beat (Prod by Katwave)</h2>
+              <p>Katwave</p>
+            </div>
+            <div class="playlistItems">
+              <h2>Stay Awake (Prod by Katwave)</h2>
+              <p>Katwave</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <a href="/about"> About </a>
+        <a href="/contact"> Contact </a>
+        <a href="/blog"> Blog </a><br />
+        <p>
+          <em
+            >Copyright Reserved | This website was created by katlego
+            Mangoale</em
+          >
+        </p>
+      </div>
+    </div>
+    <script src="../js/classes.js"></script>
+    <script src="../js/music.js"></script>
+  </body>
+</html>

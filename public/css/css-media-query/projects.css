@@ -1,0 +1,81 @@
+/* CSS Width Rules */
+
+@media screen and (max-width: 1330px) {
+  .my-projects-container {
+    width: 90%;
+  }
+  .my-project-info h3 {
+    font-size: 2em;
+  }
+  .my-project-info p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .my-project-info h3 {
+    font-size: 30px;
+  }
+  .my-project-info p {
+    font-size: 16px;
+  }
+
+  .links a {
+    padding: 10px 12px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .my-projects-container {
+    height: 100%;
+  }
+  .my-project-info h3 {
+    font-size: 24px;
+  }
+  .my-project-info p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .my-project-info h3 {
+    font-size: 18px;
+  }
+  .my-project-info p {
+    font-size: 12px;
+  }
+  .links a {
+    margin-bottom: 12px;
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+/* CSS Height Rules */
+
+@media screen and (max-height: 650px) {
+  /* Projects */
+  .my-projects {
+    height: 230vh;
+  }
+  /* Footer */
+  .footer {
+    bottom: -270%;
+  }
+}
+
+@media screen and (max-height: 525px) {
+  /* Projects */
+  .my-projects {
+    height: 250vh;
+  }
+  .my-projects-container {
+    height: 95%;
+  }
+
+  /* Footer */
+  .footer {
+    bottom: -290%;
+  }
+}
