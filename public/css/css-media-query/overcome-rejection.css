@@ -108,3 +108,10 @@
 }
 
 /* CSS HEight Rules */
+
+@media screen and (max-height: 700px) {
+  .blog-container .memes img {
+    width: 100%;
+    height: 400px;
+  }
+}
