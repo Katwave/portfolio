@@ -5,7 +5,7 @@ const bcrypt = require("bcrypt");
 const uPass = require("./scrt/scrt");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-const mongoURI = process.env.MONGO_URI || "mongodb://localhost:27017/members";
+const mongoURI = process.env.MONGODB_URI || "mongodb://localhost:27017/members";
 mongoose.connect(mongoURI, {
   useUnifiedTopology: true,
   useNewUrlParser: true,
