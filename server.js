@@ -6,7 +6,11 @@ const uPass = require("./scrt/scrt");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const mongoURI = process.env.MONGO_URI || "mongodb://localhost:27017/members";
-mongoose.connect(mongoURI);
+mongoose.connect(mongoURI, {
+  useUnifiedTopology: true,
+  useNewUrlParser: true,
+  useCreateIndex: true,
+});
 const db = mongoose.connection;
 db.on(
   "error",
