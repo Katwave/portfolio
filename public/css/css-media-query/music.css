@@ -169,17 +169,20 @@
 }
 
 @media screen and (max-height: 330px) {
-  /* Footer */
-  .footer {
-    height: 120%;
-    bottom: -190%;
+  /* Music */
+  .music {
+    top: 25%;
+    height: 240%;
   }
-}
-
-@media screen and (max-height: 250px) {
+  span#play {
+    padding: 11px;
+  }
+  a#download {
+    padding: 11px;
+  }
   /* Footer */
   .footer {
-    height: 150%;
-    bottom: -230%;
+    height: 180%;
+    bottom: -380%;
   }
 }
