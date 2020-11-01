@@ -3,79 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#333" />
     <title>About Katlego Mangoale</title>
-    <link
-      href="../css/fontAwesome/css/font-awesome.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-
-    <link rel="icon" href="../img/katman logo.png" />
-
-    <link rel="stylesheet" href="../css/css-styles/style.css" />
-    <link rel="stylesheet" href="../css/css-media-query/index.css" />
-    <link rel="stylesheet" href="../css/css-styles/about.css" />
-    <link rel="stylesheet" href="../css/css-media-query/about.css" />
+    <link rel="icon" href="../img/Katdev2codes2.png" />
+    <link rel="stylesheet" href="../css/about/style.css" />
+    <link rel="stylesheet" href="../css/basics/style.css" />
   </head>
   <body>
-    <div class="onLoad">
-      <div class="loadContainer">
-        <div class="water"></div>
-      </div>
-      <br />
-      <h1>Loading...</h1>
+    <div class="loader">
+      <div class="circle"></div>
     </div>
+    <div class="cursor"></div>
 
-    <!-- Loading Page -->
-    <div class="loading">
-      <h1>Katman</h1>
-      <br /><br />
-      <div class="circle-container">
-        <div class="load-circle"></div>
-      </div>
-    </div>
-
-    <div class="container">
-      <!--Cursor  -->
-      <div class="cursor"></div>
-
-      <!-- Navigation -->
-      <div class="nav">
-        <div class="logoContainer">
-          <a href="/"> Katman </a>
+    <nav>
+      <div class="navContainer">
+        <div class="logo">
+          <a href="/"
+            ><img src="../img/Katdev2codes2.png" alt="Kat Dev Logo"
+          /></a>
         </div>
-        <div class="linksContainer1">
-          <ul>
-            <li>
-              <a
-                href="../resume/Katlego Mangoale Web dev Resume.pdf"
-                target="_blank"
-                >Resume</a
-              >
-            </li>
-            <li>
-              <a href="/music"
-                >Music <i class="fa fa-chevron-down" aria-hidden="true"></i>
-              </a>
-
-              <div class="category">
-                <ul>
-                  <li><a href="/music/tracks">Tracks</a></li>
-                  <li><a href="/music/beats">Beats</a></li>
-                </ul>
-              </div>
-            </li>
-            <li><a href="/projects">Projects</a></li>
-            <li>
-              <a href="/blog">Blog</a>
-            </li>
-          </ul>
-        </div>
-        <div class="linksContainer2">
-          <ul>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/sign-in" class="signin">Sign in</a></li>
-          </ul>
+        <div class="navLinks">
+          <div class="mainLinks">
+            <ul>
+              <li>
+                <a href="../Resume/Katlego Developer Resume.pdf" target="_blank"
+                  >Resume</a
+                >
+              </li>
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="blogLinks">
+            <ul>
+              <li><a href="/blog">Blog</a></li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -83,12 +47,12 @@
 
       <div class="navHam">
         <div class="logoContainer">
-          <a href="/"> Katman </a>
+          <a href="/"
+            ><img src="../img/Katdev2codes2.png" alt="Kat Dev Logo"
+          /></a>
         </div>
 
         <div class="ham-burger">
-          <a href="/sign-in" class="signin">Sign in</a>
-
           <button class="hamBTN-open">
             <span></span><span></span><span></span>
           </button>
@@ -98,84 +62,116 @@
         </div>
       </div>
 
-      <div class="navigation">
-        <div class="linksContainer1">
-          <ul>
-            <li>
-              <a
-                href="../resume/Katlego Mangoale Web dev Resume.pdf"
-                target="_blank"
-                >Resume</a
-              >
-            </li>
-            <li>
-              <a
-                >Music <i class="fa fa-chevron-down" aria-hidden="true"></i>
-              </a>
-
-              <div class="category">
-                <ul>
-                  <li><a href="/music/tracks">Tracks</a></li>
-                  <li><a href="/music/beats">Beats</a></li>
-                </ul>
-              </div>
-            </li>
-            <li><a href="/projects">Projects</a></li>
-            <li>
-              <a href="/blog">Blog</a>
-            </li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/sign-in">Sign in</a></li>
-            <li><a href="/sign-up">Sign up</a></li>
-          </ul>
-        </div>
+      <div class="nav-ham-links">
+        <ul>
+          <li>
+            <a href="../Resume/Katlego Developer Resume.pdf" target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/blog">Blog</a></li>
+        </ul>
       </div>
+    </nav>
 
-      <!-- About Section -->
+    <section>
+      <!-- About -->
+
       <div class="about">
-        <div class="aboutContainer">
-          <div class="aboutPicture">
-            <img src="../img/Fav picture.jpg" alt="My Picture" />
-          </div>
-          <div class="aboutInfo">
-            <h1>About me</h1>
-            <br />
-            <p>
-              Hi There guys, my name is Katlego Mangoale and i'm a web
-              developer, designer and music producer. I am from the city of
-              Polokwane in south africa. I'm a passionate web developer with
-              skills like
-              <span>HTML5, CSS3, Node.js, Javascript, Python</span> etc. For
-              more about me go to:
-              <a href="https://instagram.com/Kat dev">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              -
-              <a href="https://github.com/Katwave">
-                <i class="fa fa-github" aria-hidden="true"></i>
-              </a>
-              -
-              <a href="#">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-              </a>
-            </p>
-          </div>
+        <div class="heading">
+          <h1>ABOUT ME</h1>
+          <span></span>
         </div>
-
-        <!-- Footer -->
-        <div class="footer">
-          <a href="/about"> About </a>
-          <a href="/contact"> Contact </a>
-          <a href="/blog"> Blog </a><br />
-          <p>
-            Copyright ©2020 All rights reserved | Build and Designed by Katlego
-            Mangoale
-          </p>
+        <div class="abotContainer">
+          <div class="aboutInfo">
+            <h3>
+              Hy there my name is Katlego Mangoale i'm a web developer and web
+              designer. I am from South Africa in a small city called Polokwane.
+              I am passionate about this career and it all started from a young
+              age at 13 years, when i was introduced to HTML and CSS. From there
+              I then started to do my research to learn more about coding in
+              general and I ended up falling in love with Web development and
+              web designing.
+            </h3>
+          </div>
+          <div class="aboutImage">
+            <div class="imgBorder"></div>
+            <div class="imgMain">
+              <img src="../img/my-pic-copy1.jpg" alt="Resume" />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <script src="../js/classes.js"></script>
-    <script src="../js/about.js"></script>
+    <footer>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/blog">Blog</a><br />
+
+      <p style="font-style: italic">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Copyrights Reserved | Build by Katlego Mangoale
+      </p>
+    </footer>
+
+    <script src="../js/basic.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+      const fw = () => {
+        // About
+        gsap.from(".aboutInfo", {
+          scrollTrigger: {
+            trigger: ".aboutInfo",
+            toggleActions: "restart none none none",
+          },
+          duration: 1.5,
+          opacity: 0,
+          y: 100,
+          ease: "power2.out",
+          stagger: 0.8,
+          delay: 1,
+        });
+
+        gsap.from(".aboutImage", {
+          scrollTrigger: {
+            trigger: ".aboutImage",
+            toggleActions: "restart none none none",
+          },
+          duration: 1.5,
+          opacity: 0,
+          x: 100,
+          ease: "power2.out",
+        });
+
+        // Headings
+        const heading = document.getElementsByClassName("heading");
+        for (let i = 0; i < heading.length; i++) {
+          gsap.from(heading[i], {
+            scrollTrigger: {
+              trigger: heading[i],
+              toggleActions: "restart none none none",
+            },
+            x: -100,
+            duration: 1,
+            ease: "power2.out",
+            opacity: 0,
+          });
+        }
+      };
+
+      window.addEventListener("load", (e) => {
+        fw();
+        document.getElementsByClassName("loader")[0].style = "display:none";
+      });
+    </script>
   </body>
 </html>

@@ -3,79 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thank you for contacting me</title>
-    <link
-      href="../css/fontAwesome/css/font-awesome.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-
-    <link rel="icon" href="../img/katman logo.png" />
-
-    <link rel="stylesheet" href="../css/css-styles/style.css" />
-    <link rel="stylesheet" href="../css/css-media-query/index.css" />
-    <link rel="stylesheet" href="../css/css-styles/error.css" />
-    <link rel="stylesheet" href="../css/css-media-query/error.css" />
+    <meta name="theme-color" content="#333" />
+    <title>Thank you for contacting Katlego Mangoale</title>
+    <link rel="icon" href="../img/Katdev2codes2.png" />
+    <link rel="stylesheet" href="../css/errors/style.css" />
+    <link rel="stylesheet" href="../css/basics/style.css" />
   </head>
   <body>
-    <div class="onLoad">
-      <div class="loadContainer">
-        <div class="water"></div>
-      </div>
-      <br />
-      <h1>Loading...</h1>
+    <div class="loader">
+      <div class="circle"></div>
     </div>
+    <div class="cursor"></div>
 
-    <!-- Loading Page -->
-    <div class="loading">
-      <h1>Katman</h1>
-      <br /><br />
-      <div class="circle-container">
-        <div class="load-circle"></div>
-      </div>
-    </div>
-
-    <div class="container">
-      <!--Cursor  -->
-      <div class="cursor"></div>
-
-      <!-- Navigation -->
-      <div class="nav">
-        <div class="logoContainer">
-          <a href="/"> Katman </a>
+    <nav>
+      <div class="navContainer">
+        <div class="logo">
+          <a href="/"
+            ><img src="../img/Katdev2codes2.png" alt="Kat Dev Logo"
+          /></a>
         </div>
-        <div class="linksContainer1">
-          <ul>
-            <li>
-              <a
-                href="../resume/Katlego Mangoale Web dev Resume.pdf"
-                target="_blank"
-                >Resume</a
-              >
-            </li>
-            <li>
-              <a href="/music"
-                >Music <i class="fa fa-chevron-down" aria-hidden="true"></i>
-              </a>
-
-              <div class="category">
-                <ul>
-                  <li><a href="/music/tracks">Tracks</a></li>
-                  <li><a href="/music/beats">Beats</a></li>
-                </ul>
-              </div>
-            </li>
-            <li><a href="/projects">Projects</a></li>
-            <li>
-              <a href="/blog">Blog</a>
-            </li>
-          </ul>
-        </div>
-        <div class="linksContainer2">
-          <ul>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/sign-in" class="signin">Sign in</a></li>
-          </ul>
+        <div class="navLinks">
+          <div class="mainLinks">
+            <ul>
+              <li>
+                <a href="../Resume/Katlego Developer Resume.pdf" target="_blank"
+                  >Resume</a
+                >
+              </li>
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="blogLinks">
+            <ul>
+              <li><a href="/blog">Blog</a></li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -83,12 +47,12 @@
 
       <div class="navHam">
         <div class="logoContainer">
-          <a href="/"> Katman </a>
+          <a href="/"
+            ><img src="../img/Katdev2codes2.png" alt="Kat Dev Logo"
+          /></a>
         </div>
 
         <div class="ham-burger">
-          <a href="/sign-in" class="signin">Sign in</a>
-
           <button class="hamBTN-open">
             <span></span><span></span><span></span>
           </button>
@@ -98,63 +62,51 @@
         </div>
       </div>
 
-      <div class="navigation">
-        <div class="linksContainer1">
-          <ul>
-            <li>
-              <a
-                href="../resume/Katlego Mangoale Web dev Resume.pdf"
-                target="_blank"
-                >Resume</a
-              >
-            </li>
-            <li>
-              <a
-                >Music <i class="fa fa-chevron-down" aria-hidden="true"></i>
-              </a>
-
-              <div class="category">
-                <ul>
-                  <li><a href="/music/tracks">Tracks</a></li>
-                  <li><a href="/music/beats">Beats</a></li>
-                </ul>
-              </div>
-            </li>
-            <li><a href="/projects">Projects</a></li>
-            <li>
-              <a href="/blog">Blog</a>
-            </li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/sign-in">Sign in</a></li>
-            <li><a href="/sign-up">Sign up</a></li>
-          </ul>
-        </div>
+      <div class="nav-ham-links">
+        <ul>
+          <li>
+            <a href="../Resume/Katlego Developer Resume.pdf" target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/blog">Blog</a></li>
+        </ul>
       </div>
+    </nav>
 
-      <!-- Error -->
+    <section>
+      <div class="thank-you">
+        <h1>Thank you for contacting me</h1>
+        <br />
 
-      <div class="error">
-        <div class="errorContainer">
-          <h2>Thank you for contacting me</h2>
-          <p>Looking forward to hear from you again.</p>
-          <br /><br />
-          <a href="/"> Go back home </a>
-        </div>
+        <p>Looking forward to hear from you again.</p>
+        <br /><br />
+        <a style="margin-top: 8px" href="/"> Go back home </a>
       </div>
+    </section>
 
-      <!-- Footer -->
-      <div class="footer">
-        <a href="/about"> About </a>
-        <a href="/contact"> Contact </a>
-        <a href="/blog"> Blog </a><br />
-        <p>
-          Copyright ©2020 All rights reserved | Build and Designed by Katlego
-          Mangoale
-        </p>
-      </div>
-    </div>
+    <footer>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/blog">Blog</a><br />
 
-    <script src="../js/classes.js"></script>
-    <script src="../js/error.js"></script>
+      <p style="font-style: italic">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Copyrights Reserved | Build by Katlego Mangoale
+      </p>
+    </footer>
+
+    <script src="../js/basic.js"></script>
+    <script>
+      window.addEventListener("load", (e) => {
+        document.getElementsByClassName("loader")[0].style = "display:none";
+      });
+    </script>
   </body>
 </html>
