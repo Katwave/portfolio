@@ -70,6 +70,6 @@ app.get("/invalid", (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(Port, () => {
+app.listen(PORT, () => {
   console.log(`Listening on PORT ${PORT}...`);
 });
